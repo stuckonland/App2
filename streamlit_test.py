@@ -58,4 +58,4 @@ prob1 = logreg_model.predict_proba([TestA])
 
 prob1_class1 = prob1[0, 1]
 
-print(f'\nProbability of LinkedIn use for the defined person: {prob1_class1:.4f}')    
+st.write(f'\nProbability of LinkedIn use for the defined person: {prob1_class1:.4f}')    
